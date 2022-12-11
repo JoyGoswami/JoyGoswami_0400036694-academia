@@ -14,7 +14,7 @@ This Project is designed using only flex. The website is not responsive. (1366 \
 
 ## 🔗 Links
 
-# [Live Link](https://joygoswami.github.io/JoyGoswami__0400036694/)
+# [Live Link](https://joygoswami.github.io/JoyGoswami_0400036694-academia/)
 
 ## Screenshots
 
