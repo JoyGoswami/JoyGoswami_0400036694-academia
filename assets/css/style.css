@@ -65,6 +65,12 @@ body {
 .d-flex {
   display: flex;
 }
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
 .d-flex-sb {
   display: flex;
   justify-content: space-between;
@@ -435,3 +441,73 @@ header {
   color: var(--white-text-color);
 }
 /*=========== courses ============*/
+/*=========== browse ============*/
+.browse {
+  background-color: var(--primary-bg-color);
+}
+.browse-inner {
+  margin-top: 3rem;
+}
+.browse-card {
+  border: 1px solid green;
+  width: calc(100% / 3);
+  padding-right: 20px;
+}
+.browse-card-inner {
+  padding: 30px 30px 40px 30px;
+  background-color: #fff;
+}
+.browse-card-icon {
+  height: 80px;
+  width: 80px;
+  background-color: var(--secondary-bg-color);
+  border-radius: 50%;
+}
+.browse-card-icon i {
+  font-size: 50px;
+  color: var(--white-text-color);
+}
+.browse-card-content {
+  width: calc(100% - 80px);
+  padding-left: 20px;
+}
+.browse-card-content h3 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: var(--black-text-color-o8);
+  line-height: 1.5;
+}
+.browse-card-content ul {
+  margin-bottom: 5px;
+}
+.browse-card-content ul li {
+  list-style: none;
+}
+.browse-card-content ul li i,
+.browse-card-content ul li span {
+  font-size: 14px;
+  color: var(--secondary-text-color);
+  line-height: 1.8;
+  margin-right: 2px;
+}
+.browse-card-profile .profile-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.browse-card-profile .profile-img img {
+  width: 100%;
+}
+.browse-card-profile .name {
+  width: calc(100% - 30px);
+  padding-left: 10px;
+}
+.browse-card-profile .name p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-color-999);
+}
+/*=========== browse ============*/
