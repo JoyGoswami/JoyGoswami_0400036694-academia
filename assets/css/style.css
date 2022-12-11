@@ -13,6 +13,7 @@
   --secondary-text-color: #1eb2a6;
   --white-text-color: #fff;
   --white-text-color-o9: rgba(255, 255, 255, 0.9);
+  --white-text-color-o8: rgba(255, 255, 255, 0.8);
   --grey-text-color: #999999;
   --black-text-color: #111111;
   --nav-brand-text-color: rgba(0, 0, 0, 0.9);
@@ -449,7 +450,6 @@ header {
   margin-top: 3rem;
 }
 .browse-card {
-  border: 1px solid green;
   width: calc(100% / 3);
   padding-right: 20px;
 }
@@ -510,4 +510,303 @@ header {
   line-height: 1.8;
   color: var(--text-color-999);
 }
+.lecture-hour {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.8;
+  color: var(--secondary-text-color);
+  margin-bottom: 1rem;
+}
+.course-price {
+  background-color: var(--primary-bg-color);
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+}
+.course-price p {
+  line-height: 1.8;
+  font-weight: 500;
+  color: var(--secondary-text-color);
+  text-align: center;
+}
+.enroll-btn {
+  border: 1px solid var(--secondary-bg-color);
+  background-color: transparent;
+  text-align: center;
+  box-shadow: 0px 24px 36px -11px rgb(0 0 0 / 9%);
+  transition: all 0.5s ease;
+}
+.enroll-btn a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: 4px;
+  display: block;
+  transition: all 0.5s ease;
+}
+.enroll-btn:hover,
+.enroll-btn.active {
+  background-color: var(--secondary-bg-color);
+  box-shadow: none;
+}
+.enroll-btn:hover a,
+.enroll-btn.active a {
+  color: var(--white-text-color);
+}
 /*=========== browse ============*/
+/*=========== testimonial ============*/
+.testimonial {
+  background-color: var(--primary-bg-color);
+}
+.testimonial-inner {
+  margin-top: 4.5rem;
+}
+.testimonial-card {
+  padding-right: 20px;
+  width: calc(100% / 3);
+}
+.testimonial-card-inner {
+  padding: 35px 30px 30px 30px;
+  background-color: #fff;
+}
+.testimonial-card-profile {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.testimonial-card-profile .profile-img-icon {
+  position: absolute;
+  bottom: 0;
+  left: 52px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: var(--secondary-bg-color);
+  color: var(--white-text-color);
+}
+.testimonial-card-profile .profile-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.testimonial-card-profile .profile-img img {
+  width: 100%;
+}
+.testimonial-card-profile .profile-content {
+  width: calc(100% - 80px);
+  padding-left: 1rem;
+}
+.profile-content h3 {
+  line-height: 1.8;
+  font-size: 20px;
+  color: var(--black-text-color);
+  font-weight: 600;
+}
+.profile-content p {
+  line-height: 1.8;
+  font-size: 13px;
+  color: var(--secondary-text-color);
+  font-weight: 500;
+}
+.testimonial-card-content {
+  margin-bottom: 1.5rem;
+}
+.testimonial-card-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-color-999);
+}
+.testimonial-card-inner.active {
+  background-color: var(--secondary-bg-color);
+}
+.testimonial-card-inner.active .profile-content h3,
+.testimonial-card-inner.active .profile-content p {
+  color: var(--white-text-color);
+}
+.testimonial-card-inner.active .testimonial-card-content p {
+  color: var(--white-text-color-o9);
+}
+.testimonial-card-inner.active .testimonial-card-profile .profile-img-icon {
+  background-color: #fff;
+  color: var(--secondary-text-color);
+}
+/*=========== testimonial ============*/
+/*=========== blog ============*/
+.blog {
+  background-color: var(--primary-bg-color);
+}
+.blog-inner {
+  margin-top: 3rem;
+}
+.blog-card {
+  width: calc(100% / 3);
+  padding: 0 0.75rem;
+}
+.blog-card-inner {
+  background-color: #fff;
+  box-shadow: 0px 10px 25px -13px rgb(0 0 0 / 10%);
+}
+.blog-card-inner-img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.blog-card-inner-content {
+  padding: 30px;
+}
+.blog-card-inner-content ul {
+  margin-bottom: 1rem;
+}
+.blog-card-inner-content ul li {
+  margin-right: 10px;
+  list-style: none;
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--text-color-999);
+  font-weight: 600;
+}
+.blog-card-inner-content ul li i {
+  color: var(--secondary-text-color);
+}
+.blog-card-inner-content ul li a {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+.blog-card-inner-content h1 a {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-size: 24px;
+  color: var(--black-text-color-o8);
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  display: inline-block;
+}
+.blog-card-inner-content h1 a:hover {
+  color: var(--secondary-text-color);
+}
+.blog-card-inner-content p {
+  font-size: 16px;
+  color: var(--text-color-999);
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+/*=========== blog ============*/
+/*=========== pricing ============*/
+.pricing {
+  background-color: var(--primary-bg-color);
+}
+.pricing-inner {
+  margin-top: 3rem;
+}
+.pricing-card {
+  padding: 0 0.75rem;
+  width: calc(100% / 4);
+}
+.pricing-card-inner {
+  padding: 40px 0;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0px 24px 48px -13px rgb(0 0 0 / 5%);
+}
+.pricing-card-inner .p1 {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--black-text-color);
+  font-weight: 700;
+}
+.pricing-card-inner .price sup {
+  font-size: 24px;
+  color: #808080;
+  font-weight: 400;
+}
+.pricing-card-inner .price {
+  font-size: 50px;
+  line-height: 1.8;
+  color: var(--secondary-text-color);
+  font-weight: 600;
+}
+.pricing-card-p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--grey-text-color);
+  padding: 1.5rem 3rem;
+}
+.pricing-btn a {
+  display: inline-block;
+  padding: 0.95rem 2.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+  border: 1px solid var(--secondary-bg-color);
+  transition: all 0.5s ease;
+}
+.pricing-btn a:hover {
+  background-color: var(--secondary-bg-color);
+  color: var(--white-text-color);
+}
+/*=========== pricing ============*/
+/*=========== newsletter ============*/
+.newsletter {
+  background-color: var(--secondary-bg-color);
+  padding: 3rem 0;
+}
+.newsletter-content {
+  width: 58.33333%;
+  padding: 0 2.5rem;
+}
+.newsletter-input {
+  width: 41.66667%;
+  padding: 0 1.5rem;
+}
+.newsletter-content h2 {
+  font-size: 27px;
+  font-weight: 500;
+  color: var(--white-text-color);
+  line-height: 1.5;
+}
+.newsletter-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white-text-color-o8);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+.newsletter-input form {
+  width: 100%;
+}
+.form {
+  width: 100%;
+  height: 45px;
+}
+.form input {
+  width: calc(100% - 20px);
+}
+.form button {
+  width: 20px;
+}
+.form input,
+.form button {
+  background-color: var(--secondary-bg-color);
+  outline: none;
+  border: none;
+  color: var(--white-text-color);
+  border-bottom: 1px solid var(--white-text-color);
+}
+.form input::placeholder {
+  color: var(--white-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+/*=========== newsletter ============*/
+/*=========== footer ============*/
+footer {
+  padding: 5rem 0 3rem 0;
+  background-color: var(--primary-bg-color);
+}
+/*=========== footer ============*/
