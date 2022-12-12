@@ -1,6 +1,6 @@
 # Assessment Project for SEIP
 
-This Project is designed using only flex. The website is not responsive. (1366 \* 768) resolution is recommended for better experience.
+This Project is designed using only flex. The website is not responsive. (1366 \* 768) resolution is recommended for better experience. [Live Link of the Project](https://joygoswami.github.io/JoyGoswami_0400036694-academia/)
 
 ## Author
 
