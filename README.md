@@ -18,4 +18,4 @@ This Project is designed using only flex. The website is not responsive. (1366 \
 
 ## Screenshots
 
-![App Screenshot](https://github.com/JoyGoswami/JoyGoswami__0400036694/blob/main/assets/full-screenshot/ss.png?raw=true)
+![App Screenshot](https://github.com/JoyGoswami/JoyGoswami_0400036694-academia/blob/main/assets/images/full-ss.png?raw=true)
