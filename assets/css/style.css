@@ -35,13 +35,11 @@ body {
   margin-right: auto;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
-  border: 1px solid red;
 }
 .nav-container {
   max-width: 1300px;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid red;
 }
 .py-8 {
   padding: 8rem 0;
@@ -69,16 +67,10 @@ body {
 .justify-content-center {
   justify-content: center;
 }
+.justify-content-between {
+  justify-content: space-between;
+}
 .align-items-center {
-  align-items: center;
-}
-.d-flex-sb {
-  display: flex;
-  justify-content: space-between;
-}
-.d-flex-sb-c {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .flex-wrap {
@@ -118,7 +110,6 @@ body {
 }
 .logo {
   width: 41.66667%;
-  border: 1px solid green;
 }
 .logo a .brand {
   font-size: 30px;
