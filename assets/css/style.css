@@ -193,7 +193,7 @@ nav {
 .nav-inner .nav-btn {
   width: 17%;
   background-color: var(--secondary-bg-color);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--white-text-color);
   text-decoration: none;
